@@ -30,7 +30,7 @@ public class Game implements Serializable {
 	
 	
 	
-	@JsonIgnore
+	
 	@ManyToOne
 	@JoinColumn(name = "genre_id")
 	private Genre genre;

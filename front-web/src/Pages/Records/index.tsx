@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-
-
-import { formatDate } from './helpers';
+import { Link } from 'react-router-dom';
 import { RecordsResponse } from './types';
+import { formatDate } from './helpers';
 import Pagination from './Pagination';
+import Filters from '../../Components/Filters';
 
 import './styles.css';
-import { Link } from 'react-router-dom';
+
 
 
 const BASE_URL = 'http://localhost:8080';
@@ -28,12 +28,7 @@ const Records = () => {
 
     return (
       <div className="page-container">
-          <div className="filters-container records-actions">
-              <Link to="/charts"/>
-              <button className="action-filters">
-                  VER GRÁFICOS
-              </button>
-          </div>
+            <Filters link="/charts" linkText="VER GRÁFICO"/>
           <table className="records-table" cellPadding="0" cellSpacing="0">
               <thead>
                   <tr>

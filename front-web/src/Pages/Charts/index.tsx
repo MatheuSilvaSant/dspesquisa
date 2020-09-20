@@ -8,7 +8,7 @@ import { buildBarSeries, getGenderChartData, getPlatformChartData} from './helpe
 
 import './styles.css';
 import { barOptions, pieOptions } from './chart-options';
-import { type } from 'os';
+// import { type } from 'os';
 
 type PieChartData = {
     labels: string[];

@@ -11,7 +11,7 @@ const Home = () => {
         <div className="home-container">
             <div className="home-text">
                 <h1 className="home-text-title">
-                    Quais jogos a galera gosta mais??
+                    Quais jogos a galera gosta mais?
                 </h1>
                 <h3 className="home-text-subtitle">
                      Clique no botão abaixo e saiba quais são os jogos que os gamers estão escolhendo! 

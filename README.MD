@@ -1,4 +1,4 @@
-# Criando Readme
+# Big Game Survey
 [![NPM](https://img.shields.io/badge/License-MIT-yellowgreen)](https://github.com/MatheuSilvaSant/dspesquisa/blob/master/LICENSE) 
 
 # Sobre o projeto
